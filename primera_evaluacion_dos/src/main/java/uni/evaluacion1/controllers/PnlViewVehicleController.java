@@ -2,6 +2,7 @@ package uni.evaluacion1.controllers;
 
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.beans.PropertyChangeListener;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
@@ -76,4 +77,20 @@ public class PnlViewVehicleController {
 //        
 //        return data;
 //    }
+
+    public void addPropertyChangeListener(PropertyChangeListener pc1) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void removePropertyChangeListener(PropertyChangeListener pc1) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public PropertyChangeListener getTblViewModel() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void deleteVehicle(int index) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 import java.awt.event.ActionEvent;
+import java.beans.PropertyChangeListener;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -185,5 +186,17 @@ public class PnlVehicleController {
         pnlVehicle.getTxtImage().setText("");
         pnlVehicle.getCmbStatus().setSelectedIndex(0);
         pnlVehicle.getRbtnAut().setSelected(true);
+    }
+
+    public void addPropertyChangeListener(PropertyChangeListener pc1) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void removePropertyChangeListener(PropertyChangeListener pc1) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public PnlVehicle updateVehicle(int index) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
